@@ -6,9 +6,11 @@
 
 @layer base {
   body {
-    @apply font-["Poppins"] text-neutral-700 scroll-smooth;
+    @apply font-["Poppins"] text-neutral-700;
   }
-
+  html {
+    scroll-behavior: smooth;
+  }
   .navbarHide {
     @apply top-0;
   }
