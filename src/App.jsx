@@ -1,6 +1,7 @@
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import Parallax from "./components/parallax/Parallax";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
         <Home />
         <Parallax />
       </main>
+      <Footer />
     </div>
   );
 };
