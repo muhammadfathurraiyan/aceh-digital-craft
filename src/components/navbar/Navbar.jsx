@@ -46,7 +46,8 @@ const Navbar = () => {
         >
           <li className="">
             <a
-              href=""
+              onClick={() => setToggle(false)}
+              href="#home"
               className="font-semibold hover:text-neutral-950 duration-300"
             >
               Home
@@ -54,6 +55,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
+              onClick={() => setToggle(false)}
               href="#about"
               className="font-semibold hover:text-neutral-950 duration-300"
             >
@@ -62,6 +64,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
+              onClick={() => setToggle(false)}
               href="#service"
               className="font-semibold hover:text-neutral-950 duration-300"
             >
@@ -70,6 +73,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
+              onClick={() => setToggle(false)}
               href="#contact"
               className="font-semibold hover:text-neutral-950 duration-300"
             >

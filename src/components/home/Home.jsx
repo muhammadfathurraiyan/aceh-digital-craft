@@ -3,7 +3,7 @@ import { FaArrowDown } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <section className="mt-[100px] flex flex-col justify-center max-w-screen-lg min-h-[85vh] mx-auto max-xl:mx-8">
+    <section id="home" className="mt-[100px] flex flex-col justify-center max-w-screen-lg min-h-[85vh] mx-auto max-xl:mx-8">
       <div className="w-3/4 max-md:w-full">
         <h1 className="text-8xl font-bold text-neutral-900 max-lg:text-7xl max-sm:text-6xl">
           ACEH DIGITAL CRAFT.
